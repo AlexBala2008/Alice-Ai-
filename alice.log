@@ -1,0 +1,281 @@
+2024-12-21 18:30:44,558 - INFO - Successfully initialized Gemini model
+2024-12-21 18:30:44,569 - INFO - Opening tunnel named: http-5000-a6c98a6e-e3ca-44ec-94fd-d9e455588208
+2024-12-21 18:32:53,200 - INFO - t=2024-12-21T18:32:53+0600 lvl=info msg="no configuration paths supplied"
+2024-12-21 18:32:53,204 - INFO - t=2024-12-21T18:32:53+0600 lvl=info msg="ignoring default config path, could not stat it" path=C:\\Users\\rinab\\AppData\\Local/ngrok/ngrok.yml
+2024-12-21 18:32:53,209 - ERROR - t=2024-12-21T18:32:53+0600 lvl=eror msg="unable to evaluate ngrok agent binary path for symlinks" obj=tunnels.session err="CreateFile C:\\Users\\rinab\\AppData\\Local\\ngrok: The system cannot find the file specified."
+2024-12-21 18:32:53,212 - INFO - t=2024-12-21T18:32:53+0600 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2024-12-21 18:32:53,661 - ERROR - t=2024-12-21T18:32:53+0600 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="authentication failed: Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+2024-12-21 18:32:53,663 - ERROR - t=2024-12-21T18:32:53+0600 lvl=eror msg="session closing" obj=tunnels.session err="authentication failed: Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+2024-12-21 18:32:53,663 - INFO - t=2024-12-21T18:32:53+0600 lvl=info msg="received stop request" obj=app stopReq="{err:{Remote:true Inner:{Inner:0xc0007824b0}} restart:false}"
+2024-12-21 18:32:53,663 - ERROR - t=2024-12-21T18:32:53+0600 lvl=eror msg="terminating with error" obj=app err="authentication failed: Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+2024-12-21 18:32:53,663 - WARNING - t=2024-12-21T18:32:53+0600 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+2024-12-21 18:32:53,666 - CRITICAL - t=2024-12-21T18:32:53+0600 lvl=crit msg="command failed" err="authentication failed: Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+2024-12-21 18:32:53,669 - INFO - t=2024-12-21T18:32:53+0600 lvl=info msg="no more state changes" obj=tunnels.session
+2024-12-21 18:32:53,702 - ERROR - Could not start ngrok tunnel: The ngrok process errored on start: authentication failed: Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n.
+2024-12-21 18:32:54,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.113:5000
+2024-12-21 18:32:54,670 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-21 18:45:22,815 - INFO - Successfully initialized Gemini model
+2024-12-21 18:45:22,831 - INFO - Opening tunnel named: http-5000-4937c2d8-66d0-4902-8092-2007d13674f6
+2024-12-21 18:45:23,072 - INFO - t=2024-12-21T18:45:23+0600 lvl=info msg="no configuration paths supplied"
+2024-12-21 18:45:23,072 - INFO - t=2024-12-21T18:45:23+0600 lvl=info msg="ignoring default config path, could not stat it" path=C:\\Users\\rinab\\AppData\\Local/ngrok/ngrok.yml
+2024-12-21 18:45:23,072 - ERROR - t=2024-12-21T18:45:23+0600 lvl=eror msg="unable to evaluate ngrok agent binary path for symlinks" obj=tunnels.session err="CreateFile C:\\Users\\rinab\\AppData\\Local\\ngrok: The system cannot find the file specified."
+2024-12-21 18:45:23,083 - INFO - t=2024-12-21T18:45:23+0600 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2024-12-21 18:45:23,451 - ERROR - t=2024-12-21T18:45:23+0600 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="authentication failed: Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+2024-12-21 18:45:23,452 - ERROR - t=2024-12-21T18:45:23+0600 lvl=eror msg="session closing" obj=tunnels.session err="authentication failed: Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+2024-12-21 18:45:23,453 - INFO - t=2024-12-21T18:45:23+0600 lvl=info msg="received stop request" obj=app stopReq="{err:{Remote:true Inner:{Inner:0xc0003f9d50}} restart:false}"
+2024-12-21 18:45:23,454 - ERROR - t=2024-12-21T18:45:23+0600 lvl=eror msg="terminating with error" obj=app err="authentication failed: Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+2024-12-21 18:45:23,455 - CRITICAL - t=2024-12-21T18:45:23+0600 lvl=crit msg="command failed" err="authentication failed: Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n"
+2024-12-21 18:45:23,458 - WARNING - t=2024-12-21T18:45:23+0600 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"
+2024-12-21 18:45:23,458 - INFO - t=2024-12-21T18:45:23+0600 lvl=info msg="no more state changes" obj=tunnels.session
+2024-12-21 18:45:23,474 - ERROR - Could not start ngrok tunnel: The ngrok process errored on start: authentication failed: Usage of ngrok requires a verified account and authtoken.\n\nSign up for an account: https://dashboard.ngrok.com/signup\nInstall your authtoken: https://dashboard.ngrok.com/get-started/your-authtoken\r\n\r\nERR_NGROK_4018\r\n.
+2024-12-21 18:45:24,424 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.113:5000
+2024-12-21 18:45:24,424 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-21 18:54:16,535 - INFO - Successfully initialized Gemini model
+2024-12-21 18:54:17,700 - INFO - Updating authtoken for default "config_path" of "ngrok_path": C:\Users\rinab\AppData\Local\ngrok\ngrok.exe
+2024-12-21 18:55:06,786 - INFO - Opening tunnel named: http-5000-fc07381b-41ad-4c52-8bd7-dc84c37918ff
+2024-12-21 18:55:07,143 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg="no configuration paths supplied"
+2024-12-21 18:55:07,143 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg="using configuration at default config path" path=C:\\Users\\rinab\\AppData\\Local/ngrok/ngrok.yml
+2024-12-21 18:55:07,144 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg="open config file" path=C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2024-12-21 18:55:07,145 - ERROR - t=2024-12-21T18:55:07+0600 lvl=eror msg="unable to evaluate ngrok agent binary path for symlinks" obj=tunnels.session err="CreateFile C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.exe: The system cannot find the file specified."
+2024-12-21 18:55:07,149 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2024-12-21 18:55:07,706 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg="client session established" obj=tunnels.session
+2024-12-21 18:55:07,707 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg="tunnel session started" obj=tunnels.session
+2024-12-21 18:55:07,742 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg=start pg=/api/tunnels id=ab4f3baa4e498fd9
+2024-12-21 18:55:07,743 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg=end pg=/api/tunnels id=ab4f3baa4e498fd9 status=200 dur=12.9793ms
+2024-12-21 18:55:07,744 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg=start pg=/api/tunnels id=8c0c0997573145bc
+2024-12-21 18:55:07,745 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg=end pg=/api/tunnels id=8c0c0997573145bc status=200 dur=0s
+2024-12-21 18:55:07,747 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg=start pg=/api/tunnels id=fca4c23c743c23a5
+2024-12-21 18:55:07,883 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg="started tunnel" obj=tunnels name=http-5000-fc07381b-41ad-4c52-8bd7-dc84c37918ff addr=http://localhost:5000 url=https://ba6c-182-48-67-1.ngrok-free.app
+2024-12-21 18:55:07,884 - INFO - t=2024-12-21T18:55:07+0600 lvl=info msg=end pg=/api/tunnels id=fca4c23c743c23a5 status=201 dur=135.0271ms
+2024-12-21 18:55:08,890 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.113:5000
+2024-12-21 18:55:08,891 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-21 18:55:11,728 - INFO - t=2024-12-21T18:55:11+0600 lvl=info msg="update available" obj=updater
+2024-12-21 18:56:26,554 - INFO - 127.0.0.1 - - [21/Dec/2024 18:56:26] "GET / HTTP/1.1" 200 -
+2024-12-21 18:56:28,966 - INFO - 127.0.0.1 - - [21/Dec/2024 18:56:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-21 18:56:34,675 - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2024-12-21 18:56:34,675 - INFO - 127.0.0.1 - - [21/Dec/2024 18:56:34] "POST /chat HTTP/1.1" 200 -
+2024-12-21 18:56:47,797 - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2024-12-21 18:56:47,797 - INFO - 127.0.0.1 - - [21/Dec/2024 18:56:47] "POST /chat HTTP/1.1" 200 -
+2024-12-21 19:00:05,409 - INFO - Successfully initialized Gemini model
+2024-12-21 19:00:05,443 - INFO - Updating authtoken for default "config_path" of "ngrok_path": C:\Users\rinab\AppData\Local\ngrok\ngrok.exe
+2024-12-21 19:00:07,767 - INFO - Opening tunnel named: http-5000-8819917f-a980-4a11-b367-6e0cf940bf91
+2024-12-21 19:00:07,986 - INFO - t=2024-12-21T19:00:07+0600 lvl=info msg="no configuration paths supplied"
+2024-12-21 19:00:07,990 - INFO - t=2024-12-21T19:00:07+0600 lvl=info msg="using configuration at default config path" path=C:\\Users\\rinab\\AppData\\Local/ngrok/ngrok.yml
+2024-12-21 19:00:07,990 - INFO - t=2024-12-21T19:00:07+0600 lvl=info msg="open config file" path=C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2024-12-21 19:00:07,990 - ERROR - t=2024-12-21T19:00:07+0600 lvl=eror msg="unable to evaluate ngrok agent binary path for symlinks" obj=tunnels.session err="CreateFile C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.exe: The system cannot find the file specified."
+2024-12-21 19:00:07,995 - INFO - t=2024-12-21T19:00:07+0600 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2024-12-21 19:00:08,390 - INFO - t=2024-12-21T19:00:08+0600 lvl=info msg="client session established" obj=tunnels.session
+2024-12-21 19:00:08,390 - INFO - t=2024-12-21T19:00:08+0600 lvl=info msg="tunnel session started" obj=tunnels.session
+2024-12-21 19:00:08,409 - INFO - t=2024-12-21T19:00:08+0600 lvl=info msg=start pg=/api/tunnels id=2f2edac82838eebe
+2024-12-21 19:00:08,409 - INFO - t=2024-12-21T19:00:08+0600 lvl=info msg=end pg=/api/tunnels id=2f2edac82838eebe status=200 dur=0s
+2024-12-21 19:00:08,410 - INFO - t=2024-12-21T19:00:08+0600 lvl=info msg=start pg=/api/tunnels id=41d589c20754c84e
+2024-12-21 19:00:08,411 - INFO - t=2024-12-21T19:00:08+0600 lvl=info msg=end pg=/api/tunnels id=41d589c20754c84e status=200 dur=1.0006ms
+2024-12-21 19:00:08,414 - INFO - t=2024-12-21T19:00:08+0600 lvl=info msg=start pg=/api/tunnels id=02d15250ca407f2f
+2024-12-21 19:00:08,488 - INFO - t=2024-12-21T19:00:08+0600 lvl=info msg="started tunnel" obj=tunnels name=http-5000-8819917f-a980-4a11-b367-6e0cf940bf91 addr=http://localhost:5000 url=https://1ff0-182-48-67-0.ngrok-free.app
+2024-12-21 19:00:08,489 - INFO - t=2024-12-21T19:00:08+0600 lvl=info msg=end pg=/api/tunnels id=02d15250ca407f2f status=201 dur=64.3761ms
+2024-12-21 19:00:09,435 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.113:5000
+2024-12-21 19:00:09,435 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-21 19:00:11,904 - INFO - t=2024-12-21T19:00:11+0600 lvl=info msg="update available" obj=updater
+2024-12-21 19:02:45,482 - INFO - 127.0.0.1 - - [21/Dec/2024 19:02:45] "GET / HTTP/1.1" 200 -
+2024-12-21 19:02:46,562 - INFO - 127.0.0.1 - - [21/Dec/2024 19:02:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-21 19:02:50,416 - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2024-12-21 19:02:50,416 - INFO - 127.0.0.1 - - [21/Dec/2024 19:02:50] "POST /chat HTTP/1.1" 200 -
+2024-12-21 19:03:03,630 - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2024-12-21 19:03:03,630 - INFO - 127.0.0.1 - - [21/Dec/2024 19:03:03] "POST /chat HTTP/1.1" 200 -
+2024-12-21 19:03:12,168 - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2024-12-21 19:03:12,172 - INFO - 127.0.0.1 - - [21/Dec/2024 19:03:12] "POST /chat HTTP/1.1" 200 -
+2024-12-21 19:03:45,766 - INFO - 192.168.0.100 - - [21/Dec/2024 19:03:45] "GET / HTTP/1.1" 200 -
+2024-12-21 19:03:46,353 - INFO - 192.168.0.100 - - [21/Dec/2024 19:03:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-21 19:04:24,196 - INFO - 192.168.0.100 - - [21/Dec/2024 19:04:24] "POST /chat HTTP/1.1" 200 -
+2024-12-21 19:06:13,545 - INFO - 127.0.0.1 - - [21/Dec/2024 19:06:13] "GET / HTTP/1.1" 200 -
+2024-12-21 19:06:15,645 - INFO - 127.0.0.1 - - [21/Dec/2024 19:06:15] "POST /chat HTTP/1.1" 200 -
+2024-12-21 19:07:00,437 - INFO - t=2024-12-21T19:07:00+0600 lvl=info msg="join connections" obj=join id=be99aa887213 l=127.0.0.1:5000 r=182.48.67.3:6960
+2024-12-21 19:07:00,462 - INFO - 127.0.0.1 - - [21/Dec/2024 19:07:00] "GET / HTTP/1.1" 200 -
+2024-12-21 19:07:01,321 - INFO - t=2024-12-21T19:07:01+0600 lvl=info msg="join connections" obj=join id=2565f808afe9 l=127.0.0.1:5000 r=182.48.67.3:6960
+2024-12-21 19:07:01,329 - INFO - 127.0.0.1 - - [21/Dec/2024 19:07:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-21 19:07:03,451 - INFO - t=2024-12-21T19:07:03+0600 lvl=info msg="join connections" obj=join id=683eba0c4945 l=127.0.0.1:5000 r=182.48.67.3:6960
+2024-12-21 19:07:03,879 - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2024-12-21 19:07:03,879 - INFO - 127.0.0.1 - - [21/Dec/2024 19:07:03] "POST /chat HTTP/1.1" 200 -
+2024-12-21 19:07:10,755 - INFO - t=2024-12-21T19:07:10+0600 lvl=info msg="join connections" obj=join id=b6357c3092a7 l=127.0.0.1:5000 r=182.48.67.3:6960
+2024-12-21 19:07:10,773 - INFO - 127.0.0.1 - - [21/Dec/2024 19:07:10] "GET / HTTP/1.1" 200 -
+2024-12-21 19:07:15,267 - INFO - t=2024-12-21T19:07:15+0600 lvl=info msg="join connections" obj=join id=f8032850bbb3 l=127.0.0.1:5000 r=182.48.67.3:6960
+2024-12-21 19:07:15,267 - INFO - 127.0.0.1 - - [21/Dec/2024 19:07:15] "POST /chat HTTP/1.1" 200 -
+2024-12-21 19:15:41,691 - INFO - Successfully initialized Gemini model
+2024-12-21 19:15:41,712 - INFO - Updating authtoken for default "config_path" of "ngrok_path": C:\Users\rinab\AppData\Local\ngrok\ngrok.exe
+2024-12-21 19:15:42,053 - INFO - Opening tunnel named: http-5000-0eb7cf77-48df-4cf1-bc7a-cbbf0028b27e
+2024-12-21 19:15:42,235 - INFO - t=2024-12-21T19:15:42+0600 lvl=info msg="no configuration paths supplied"
+2024-12-21 19:15:42,235 - INFO - t=2024-12-21T19:15:42+0600 lvl=info msg="using configuration at default config path" path=C:\\Users\\rinab\\AppData\\Local/ngrok/ngrok.yml
+2024-12-21 19:15:42,235 - INFO - t=2024-12-21T19:15:42+0600 lvl=info msg="open config file" path=C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2024-12-21 19:15:42,243 - ERROR - t=2024-12-21T19:15:42+0600 lvl=eror msg="unable to evaluate ngrok agent binary path for symlinks" obj=tunnels.session err="CreateFile C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.exe: The system cannot find the file specified."
+2024-12-21 19:15:42,248 - INFO - t=2024-12-21T19:15:42+0600 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2024-12-21 19:15:42,938 - INFO - t=2024-12-21T19:15:42+0600 lvl=info msg="client session established" obj=tunnels.session
+2024-12-21 19:15:42,939 - INFO - t=2024-12-21T19:15:42+0600 lvl=info msg="tunnel session started" obj=tunnels.session
+2024-12-21 19:15:43,032 - INFO - t=2024-12-21T19:15:42+0600 lvl=info msg=start pg=/api/tunnels id=d2ba5ffbb6e855d9
+2024-12-21 19:15:43,032 - INFO - t=2024-12-21T19:15:42+0600 lvl=info msg=end pg=/api/tunnels id=d2ba5ffbb6e855d9 status=200 dur=0s
+2024-12-21 19:15:43,047 - INFO - t=2024-12-21T19:15:43+0600 lvl=info msg=start pg=/api/tunnels id=4bf18624369a3372
+2024-12-21 19:15:43,047 - INFO - t=2024-12-21T19:15:43+0600 lvl=info msg=end pg=/api/tunnels id=4bf18624369a3372 status=200 dur=0s
+2024-12-21 19:15:43,063 - INFO - t=2024-12-21T19:15:43+0600 lvl=info msg=start pg=/api/tunnels id=6a36f4ea253c6db2
+2024-12-21 19:15:43,142 - INFO - t=2024-12-21T19:15:43+0600 lvl=info msg="started tunnel" obj=tunnels name=http-5000-0eb7cf77-48df-4cf1-bc7a-cbbf0028b27e addr=http://localhost:5000 url=https://6427-182-48-67-1.ngrok-free.app
+2024-12-21 19:15:43,142 - INFO - t=2024-12-21T19:15:43+0600 lvl=info msg=end pg=/api/tunnels id=6a36f4ea253c6db2 status=201 dur=78.9915ms
+2024-12-21 19:15:43,398 - INFO - t=2024-12-21T19:15:43+0600 lvl=info msg="update available" obj=updater
+2024-12-21 19:15:44,090 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.113:5000
+2024-12-21 19:15:44,090 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-21 19:15:51,134 - INFO - 127.0.0.1 - - [21/Dec/2024 19:15:51] "GET / HTTP/1.1" 200 -
+2024-12-21 19:15:54,525 - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2024-12-21 19:15:54,525 - INFO - 127.0.0.1 - - [21/Dec/2024 19:15:54] "POST /chat HTTP/1.1" 200 -
+2024-12-21 19:15:59,591 - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2024-12-21 19:15:59,591 - INFO - 127.0.0.1 - - [21/Dec/2024 19:15:59] "POST /chat HTTP/1.1" 200 -
+2024-12-21 19:23:31,751 - INFO - Updating authtoken for default "config_path" of "ngrok_path": C:\Users\rinab\AppData\Local\ngrok\ngrok.exe
+2024-12-21 19:23:35,577 - INFO - Opening tunnel named: http-5000-6e51af12-de15-4281-adcb-b0751ee15734
+2024-12-21 19:23:35,967 - INFO - t=2024-12-21T19:23:35+0600 lvl=info msg="no configuration paths supplied"
+2024-12-21 19:23:35,967 - INFO - t=2024-12-21T19:23:35+0600 lvl=info msg="using configuration at default config path" path=C:\\Users\\rinab\\AppData\\Local/ngrok/ngrok.yml
+2024-12-21 19:23:35,969 - INFO - t=2024-12-21T19:23:35+0600 lvl=info msg="open config file" path=C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2024-12-21 19:23:35,973 - ERROR - t=2024-12-21T19:23:35+0600 lvl=eror msg="unable to evaluate ngrok agent binary path for symlinks" obj=tunnels.session err="CreateFile C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.exe: The system cannot find the file specified."
+2024-12-21 19:23:35,976 - INFO - t=2024-12-21T19:23:35+0600 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2024-12-21 19:23:36,420 - INFO - t=2024-12-21T19:23:36+0600 lvl=info msg="client session established" obj=tunnels.session
+2024-12-21 19:23:36,420 - INFO - t=2024-12-21T19:23:36+0600 lvl=info msg="tunnel session started" obj=tunnels.session
+2024-12-21 19:23:36,710 - INFO - t=2024-12-21T19:23:36+0600 lvl=info msg=start pg=/api/tunnels id=85578c3fcfd1f7bd
+2024-12-21 19:23:36,710 - INFO - t=2024-12-21T19:23:36+0600 lvl=info msg=end pg=/api/tunnels id=85578c3fcfd1f7bd status=200 dur=28.8628ms
+2024-12-21 19:23:36,710 - INFO - t=2024-12-21T19:23:36+0600 lvl=info msg=start pg=/api/tunnels id=e51f0f1f09fcfd9a
+2024-12-21 19:23:36,710 - INFO - t=2024-12-21T19:23:36+0600 lvl=info msg=end pg=/api/tunnels id=e51f0f1f09fcfd9a status=200 dur=0s
+2024-12-21 19:23:36,716 - INFO - t=2024-12-21T19:23:36+0600 lvl=info msg=start pg=/api/tunnels id=e76af6cd693acdea
+2024-12-21 19:23:36,787 - INFO - t=2024-12-21T19:23:36+0600 lvl=info msg="started tunnel" obj=tunnels name=http-5000-6e51af12-de15-4281-adcb-b0751ee15734 addr=http://localhost:5000 url=https://4992-182-48-67-1.ngrok-free.app
+2024-12-21 19:23:36,788 - INFO - t=2024-12-21T19:23:36+0600 lvl=info msg=end pg=/api/tunnels id=e76af6cd693acdea status=201 dur=70.4474ms
+2024-12-21 19:23:37,003 - INFO - t=2024-12-21T19:23:37+0600 lvl=info msg="update available" obj=updater
+2024-12-21 19:23:37,876 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.113:5000
+2024-12-21 19:23:37,876 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-21 19:24:08,269 - INFO - 127.0.0.1 - - [21/Dec/2024 19:24:08] "[33mGET / HTTP/1.1[0m" 404 -
+2024-12-21 19:24:31,901 - INFO - 127.0.0.1 - - [21/Dec/2024 19:24:31] "[33mGET / HTTP/1.1[0m" 404 -
+2024-12-21 19:27:25,678 - INFO - Updating authtoken for default "config_path" of "ngrok_path": C:\Users\rinab\AppData\Local\ngrok\ngrok.exe
+2024-12-21 19:27:26,411 - INFO - Opening tunnel named: http-5000-1b60a731-bef2-4ab0-97ad-67aa7e492a2e
+2024-12-21 19:27:26,811 - INFO - t=2024-12-21T19:27:26+0600 lvl=info msg="no configuration paths supplied"
+2024-12-21 19:27:26,811 - INFO - t=2024-12-21T19:27:26+0600 lvl=info msg="using configuration at default config path" path=C:\\Users\\rinab\\AppData\\Local/ngrok/ngrok.yml
+2024-12-21 19:27:26,811 - INFO - t=2024-12-21T19:27:26+0600 lvl=info msg="open config file" path=C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2024-12-21 19:27:26,811 - ERROR - t=2024-12-21T19:27:26+0600 lvl=eror msg="unable to evaluate ngrok agent binary path for symlinks" obj=tunnels.session err="CreateFile C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.exe: The system cannot find the file specified."
+2024-12-21 19:27:26,826 - INFO - t=2024-12-21T19:27:26+0600 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2024-12-21 19:27:27,245 - INFO - t=2024-12-21T19:27:27+0600 lvl=info msg="client session established" obj=tunnels.session
+2024-12-21 19:27:27,245 - INFO - t=2024-12-21T19:27:27+0600 lvl=info msg="tunnel session started" obj=tunnels.session
+2024-12-21 19:27:27,252 - INFO - t=2024-12-21T19:27:27+0600 lvl=info msg=start pg=/api/tunnels id=ce7facc38cda7756
+2024-12-21 19:27:27,252 - INFO - t=2024-12-21T19:27:27+0600 lvl=info msg=end pg=/api/tunnels id=ce7facc38cda7756 status=200 dur=0s
+2024-12-21 19:27:27,257 - INFO - t=2024-12-21T19:27:27+0600 lvl=info msg=start pg=/api/tunnels id=583081dcef687b08
+2024-12-21 19:27:27,257 - INFO - t=2024-12-21T19:27:27+0600 lvl=info msg=end pg=/api/tunnels id=583081dcef687b08 status=200 dur=0s
+2024-12-21 19:27:27,263 - INFO - t=2024-12-21T19:27:27+0600 lvl=info msg=start pg=/api/tunnels id=4adf5fc834b84a90
+2024-12-21 19:27:27,401 - INFO - t=2024-12-21T19:27:27+0600 lvl=info msg="started tunnel" obj=tunnels name=http-5000-1b60a731-bef2-4ab0-97ad-67aa7e492a2e addr=http://localhost:5000 url=https://9958-182-48-67-1.ngrok-free.app
+2024-12-21 19:27:27,402 - INFO - t=2024-12-21T19:27:27+0600 lvl=info msg=end pg=/api/tunnels id=4adf5fc834b84a90 status=201 dur=138.0906ms
+2024-12-21 19:27:27,843 - INFO - t=2024-12-21T19:27:27+0600 lvl=info msg="update available" obj=updater
+2024-12-21 19:27:28,326 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.113:5000
+2024-12-21 19:27:28,326 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-21 19:27:34,926 - INFO - 127.0.0.1 - - [21/Dec/2024 19:27:34] "GET / HTTP/1.1" 200 -
+2024-12-21 19:27:40,714 - INFO - 127.0.0.1 - - [21/Dec/2024 19:27:40] "GET / HTTP/1.1" 200 -
+2024-12-21 19:29:28,329 - INFO - Updating authtoken for default "config_path" of "ngrok_path": C:\Users\rinab\AppData\Local\ngrok\ngrok.exe
+2024-12-21 19:29:29,086 - INFO - Opening tunnel named: http-5000-c96cf445-8ff5-4c01-9907-e2fb7c4cecd7
+2024-12-21 19:29:29,563 - INFO - t=2024-12-21T19:29:29+0600 lvl=info msg="no configuration paths supplied"
+2024-12-21 19:29:29,563 - INFO - t=2024-12-21T19:29:29+0600 lvl=info msg="using configuration at default config path" path=C:\\Users\\rinab\\AppData\\Local/ngrok/ngrok.yml
+2024-12-21 19:29:29,563 - INFO - t=2024-12-21T19:29:29+0600 lvl=info msg="open config file" path=C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2024-12-21 19:29:29,569 - ERROR - t=2024-12-21T19:29:29+0600 lvl=eror msg="unable to evaluate ngrok agent binary path for symlinks" obj=tunnels.session err="CreateFile C:\\Users\\rinab\\AppData\\Local\\ngrok\\ngrok.exe: The system cannot find the file specified."
+2024-12-21 19:29:29,572 - INFO - t=2024-12-21T19:29:29+0600 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2024-12-21 19:29:30,180 - INFO - t=2024-12-21T19:29:30+0600 lvl=info msg="client session established" obj=tunnels.session
+2024-12-21 19:29:30,180 - INFO - t=2024-12-21T19:29:30+0600 lvl=info msg="tunnel session started" obj=tunnels.session
+2024-12-21 19:29:30,191 - INFO - t=2024-12-21T19:29:30+0600 lvl=info msg=start pg=/api/tunnels id=a254c281740d437f
+2024-12-21 19:29:30,191 - INFO - t=2024-12-21T19:29:30+0600 lvl=info msg=end pg=/api/tunnels id=a254c281740d437f status=200 dur=0s
+2024-12-21 19:29:30,191 - INFO - t=2024-12-21T19:29:30+0600 lvl=info msg=start pg=/api/tunnels id=c0fb774e771738d8
+2024-12-21 19:29:30,191 - INFO - t=2024-12-21T19:29:30+0600 lvl=info msg=end pg=/api/tunnels id=c0fb774e771738d8 status=200 dur=0s
+2024-12-21 19:29:30,191 - INFO - t=2024-12-21T19:29:30+0600 lvl=info msg=start pg=/api/tunnels id=b00a2adb6341e5db
+2024-12-21 19:29:30,261 - INFO - t=2024-12-21T19:29:30+0600 lvl=info msg="started tunnel" obj=tunnels name=http-5000-c96cf445-8ff5-4c01-9907-e2fb7c4cecd7 addr=http://localhost:5000 url=https://6305-182-48-67-1.ngrok-free.app
+2024-12-21 19:29:30,261 - INFO - t=2024-12-21T19:29:30+0600 lvl=info msg=end pg=/api/tunnels id=b00a2adb6341e5db status=201 dur=69.4863ms
+2024-12-21 19:29:30,553 - INFO - t=2024-12-21T19:29:30+0600 lvl=info msg="update available" obj=updater
+2024-12-21 19:29:31,174 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.113:5000
+2024-12-21 19:29:31,174 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-21 19:29:45,730 - INFO - 127.0.0.1 - - [21/Dec/2024 19:29:45] "GET / HTTP/1.1" 200 -
+2024-12-21 19:29:48,187 - ERROR - Error generating response: module 'google.generativeai' has no attribute 'generate_content'
+2024-12-21 19:29:48,187 - INFO - 127.0.0.1 - - [21/Dec/2024 19:29:48] "POST /chat HTTP/1.1" 200 -
+2024-12-21 19:29:57,439 - ERROR - Error generating response: module 'google.generativeai' has no attribute 'generate_content'
+2024-12-21 19:29:57,439 - INFO - 127.0.0.1 - - [21/Dec/2024 19:29:57] "POST /chat HTTP/1.1" 200 -

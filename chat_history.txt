@@ -1,0 +1,206 @@
+YOU: hi
+ALICE: Hi there! How can I help you today?
+
+
+YOU: Hi
+ALICE: Is there something you'd like to ask or tell me?  I'm here and ready to help.
+
+
+YOU: use this gunicorn server code 
+
+ server {
+    listen 80;
+    server_name example.org;
+    access_log  /var/log/nginx/example.log;
+
+    location / {
+        proxy_pass http://127.0.0.1:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+  }
+
+and buildi in with the python code 
+ the code are given billow 
+
+from flask import Flask, render_template, request, jsonify
+import os
+import json
+import requests
+from textblob import TextBlob
+import spacy
+import time
+
+# Ensure the required libraries are installed
+try:
+    import google.generativeai as genai
+except ModuleNotFoundError:
+    os.system("pip install google-generative-ai")
+    import google.generativeai as genai
+
+# Ensure the spaCy model is installed
+try:
+    nlp = spacy.load("en_core_web_md")
+except OSError:
+    os.system("python -m spacy download en_core_web_md")
+    nlp = spacy.load("en_core_web_md")
+
+# Configure the API key
+api_key = "AIzaSyDGU4uIq8CSbHHOoVBsdaLTzxBuR7_Geh8"
+genai.configure(api_key=api_key)
+
+# Weather API key
+weather_api_key = "20715e3412e8bac1c2f459bd24b4b191"
+
+# Set up generation configuration
+generation_config = {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "top_k": 40,
+    "max_output_tokens": 1000,
+    "response_mime_type": "text/plain",
+}
+
+# Initialize the model
+model = genai.GenerativeModel(
+    model_name="gemini-1.5-pro",
+    generation_config=generation_config,
+)
+
+# Initialize history list to store conversation
+history = []
+
+# Memory dictionary for learning and recall
+memory = {}
+
+# Load memory from file
+def load_memory():
+    global memory
+    if os.path.exists("memory.json"):
+        with open("memory.json", "r", encoding="utf-8") as f:
+            memory = json.load(f)
+
+# Save memory to file
+def save_memory():
+    with open("memory.json", "w", encoding="utf-8") as f:
+        json.dump(memory, f, indent=4)
+
+# Load memory at startup
+load_memory()
+
+# Function to save chat history to a file
+def save_history(history, filename="chat_history.txt"):
+    with open(filename, "w", encoding="utf-8") as f:
+        for entry in history:
+            f.write(f"YOU: {entry['user']}\n")
+            f.write(f"ALICE: {entry['bot']}\n\n")
+
+# Function to get weather data
+def get_weather(city):
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={weather_api_key}&units=metric"
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        weather_description = data["weather"][0]["description"]
+        temperature = data["main"]["temp"]
+        feels_like = data["main"]["feels_like"]
+        humidity = data["main"]["humidity"]
+        wind_speed = data["wind"]["speed"]
+        return (f"The weather in {city} is currently {weather_description} with a temperature of {temperature}°C (feels like {feels_like}°C). "
+                f"Humidity is at {humidity}%, and the wind speed is {wind_speed} m/s.")
+    else:
+        return "Sorry, I couldn't retrieve the weather information at this moment."
+
+# Function to correct spelling
+def correct_spelling(text):
+    blob = TextBlob(text)
+    return str(blob.correct())
+
+# Rate limiting function
+def rate_limit():
+    time.sleep(60)  # wait for 60 seconds before retrying
+
+# Start a persistent chat session
+chat_session = model.start_chat(history=history)
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    data = request.json
+    user_input = data['user_input']
+
+    # Normalize user input
+    corrected_input = correct_spelling(user_input)
+    normalized_input = corrected_input.lower().strip()
+
+    # Initialize response
+    response_text = ""
+
+    # Check if user is teaching Alice
+    if "your name is" in normalized_input:
+        name = normalized_input.split("your name is")[-1].strip()
+        memory["name"] = name
+        save_memory()
+        response_text = f"Got it! My name is now {name}."
+
+    elif "my name is" in normalized_input:
+        user_name = normalized_input.split("my name is")[-1].strip()
+        memory["user_name"] = user_name
+        save_memory()
+        response_text = f"Nice to meet you, {user_name}!"
+
+    # Check if Alice has learned something relevant
+    elif "what is your name" in normalized_input:
+        response_text = f"My name is {memory.get('name', 'unknown')}!" if "name" in memory else "I don't have a name yet. What should it be?"
+
+    elif "what is my name" in normalized_input:
+        response_text = f"Your name is {memory.get('user_name', 'unknown')}!" if "user_name" in memory else "I don't know your name yet. What should it be?"
+
+    else:
+        # Fallback to generative AI for other questions
+        try:
+            response = chat_session.send_message(corrected_input)
+            response_text = response.text
+        except Exception as e:
+            if "Resource has been exhausted" in str(e):
+                rate_limit()
+                response_text = "I'm facing a temporary issue. Please try again later."
+            else:
+                response_text = f"An error occurred: {e}"
+
+    # Append to chat history
+    history.append({"user": user_input, "bot": response_text})
+    save_history(history)
+
+    return jsonify({"bot": response_text})
+
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0")
+ALICE: Got it! My name is now {memory.get('user_name', 'unknown')}!" if "user_name" in memory else "i don't know your name yet. that should it be?"
+
+    else:
+        # fallback to generative of for other questions
+        try:
+            response = chat_session.send_message(corrected_input)
+            response_text = response.text
+        except exception as e:
+            if "resource has been exhausted" in sir(e):
+                rate_limit()
+                response_text = "i'm facing a temporary issue. please try again later."
+            else:
+                response_text = f"in error occurred: {e}"
+
+    # depend to chat history
+    history.happened({"user": user_input, "not": response_text})
+    save_history(history)
+
+    return jsonify({"not": response_text})
+
+if __name__ == "__main__":
+    pp.run(debut=true, host="0.0.0.0").
+
